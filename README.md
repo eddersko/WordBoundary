@@ -14,3 +14,8 @@ The approach of this study is simple, and will not include the use of probabilis
 
 1.3 What is a word?
 In many writing systems, words are separated by spaces. However, in languages like Chinese, this is not the case, and in these languages especially, how the word is defined is still in debate. One of the reasons refers to the typology of the language in which languages that are highly synthetic, or composed of many morphemes, can convey the same information in one word to, say, ten words in English. Furthermore, free morphemes are those that do not attach to other words and are freestanding and in English, the infinitive is usually represented by to such as to eat or to play. While infinitives are considered two words in English, in other languages, it is not so clear. In philosophy, words represent semantic units, but defining negation not as a word then becomes a problem. Therefore cross-linguistically, there is not a universal definition for a word, and in this experiment, the term word will just mean token, rather than type. This will be important when looking at utterances from a collection of languages.
+
+...
+
+2.3 Methodology
+My approach involves basic statistics within the time domain using a sliding window. The biggest obstacle in separating silence periods is noise found within the speech signal – absolute silence in the sound signal will have amplitude of 0, but rarely do speech signals contain absolute silence. Furthermore, the noise level differs from signal to signal, and therefore the implementation must be able account for this. Therefore I looked at formulating a threshold for silence.
