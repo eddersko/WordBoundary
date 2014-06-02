@@ -4,7 +4,7 @@ AN EXPERIMENT IN THE DETECTION AND
 SEGMENTATION OF WORD BOUNDARIES
 Edwin Ko
 
-1. Introduction
+Introduction
 Speech technology has become commonplace due to the steady progress of the technologies computers need to understand and recognize speech. The detection and segmentation of word boundaries are essential for natural language understanding in both humans and computers. In general, words convey semantic units, a direct mapping from the signifier to the signified. More specifically, in prosody, stress and syllables are located at the level of the word containing linguistically rich information and gives rise to studies in phonotactics. For example, the words to produce and the produce, depending on the speaker, contain identical phonemes but distinct prosodic structures – the stress in the former falls on the second syllable, and the stress in the latter falls on the first. This project seeks to experiment with simple techniques in detecting and segmenting word boundaries.
 
 1.1 Previous Studies
