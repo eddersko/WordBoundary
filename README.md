@@ -22,4 +22,5 @@ In many writing systems, words are separated by spaces. However, in languages li
 ...
 
 2.3 Methodology
+
 My approach involves basic statistics within the time domain using a sliding window. The biggest obstacle in separating silence periods is noise found within the speech signal – absolute silence in the sound signal will have amplitude of 0, but rarely do speech signals contain absolute silence. Furthermore, the noise level differs from signal to signal, and therefore the implementation must be able account for this. Therefore I looked at formulating a threshold for silence.
